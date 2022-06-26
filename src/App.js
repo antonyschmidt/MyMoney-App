@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/home/Home'
 import Login from './pages/login/Login'
 import Signup from './pages/signup/Signup'
+import Navbar from './components/Navbar'
 //styles
 import './index.css';
 
@@ -13,6 +14,8 @@ function App() {
 
 
       <BrowserRouter>
+
+        <Navbar />
         <Switch>
           <Route exact path='/'>
             <Home />
