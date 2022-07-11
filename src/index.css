@@ -6,13 +6,22 @@ body {
   margin: 0;
   font-size: 1.1em;
 }
-ul, li, p, h1, h2, h3, h4 {
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
   padding: 0;
 }
+
 ul {
   list-style-type: none;
 }
+
 .btn {
   background: none;
   border: 2px solid #1f9751;
@@ -23,6 +32,19 @@ ul {
   cursor: pointer;
   font-size: 1em;
 }
+
+.err {
+  margin-top: 1em;
+  background: #ffccd5;
+  border: 2px solid #c1121f;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #c1121f;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+
 .btn:hover {
   background: #1f9751;
   color: #fff;
